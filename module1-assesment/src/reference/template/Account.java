@@ -42,9 +42,7 @@ public class Account {
 		return ownerName;
 	}
 
-	public void setOwnerName(String ownerName) {
-		this.ownerName = ownerName;
-	}
+	
 
 	
 	public String getDetails() {
@@ -79,9 +77,7 @@ public class Account {
 		return accountStatus;
 	}
 
-	public void setAccountStatus(Status accountStatus) {
-		this.accountStatus = accountStatus;
-	}
+	
 	
 	private int generateAccountNumber() {//
 		return counter++;
